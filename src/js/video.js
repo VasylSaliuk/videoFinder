@@ -37,7 +37,7 @@ form.addEventListener("submit", (evt) => {
       const posterImg = el.image;
       const author = el.user.name;
       const pictures = el.video_pictures;
-      // const items = createItem(url, posterImg, author, pictures);
+      const items = createItem(url, posterImg, author, pictures);
       return items;
     });
     queryResult.append(...resultItems);
